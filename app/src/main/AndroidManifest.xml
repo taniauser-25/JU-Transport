@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.jutransport">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/project_logo"
@@ -9,7 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BasicActivity"></activity>
+        <activity android:name=".DhakaToCampus"></activity>
+        <activity android:name=".CampusToDhaka" />
+        <activity android:name=".ContactNumber" />
+        <activity android:name=".BusSchedule" />
+        <activity android:name=".BasicActivity" />
         <activity android:name=".logoutActivity" />
         <activity android:name=".registerActivity" />
         <activity android:name=".loginActivity" />

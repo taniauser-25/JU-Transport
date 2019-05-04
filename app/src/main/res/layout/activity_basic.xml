@@ -4,12 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/map4"
+    android:orientation="vertical"
+    android:gravity="center"
     tools:context=".BasicActivity">
-    <TextView
+    <Button
+        android:id="@+id/busScedule_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello"
-        android:gravity="center"
-        android:textSize="50dp"/>
+        android:text="bus schedule"
+        android:background="#83b8f4"/>
+    <Button
+        android:id="@+id/contactNumber_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="contact number"
+        android:background="#ff9292"/>
+
+
+
 
 </LinearLayout>
